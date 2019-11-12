@@ -3,4 +3,21 @@
     letter-spacing:2px;
     color:#3098dd
 }
-font-family: 'Source Sans Pro', sans-serif;
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    width:80%;
+    margin:0 auto;
+    border:#bdc7cf 20px solid;
+    padding:20px;
+    min-width:300px;
+    max-width: 1000px;
+}
+h2{
+    color:#354b63;
+}
+.bordered{
+    border-left:#bdc7cf 5px solid;
+    margin:5px;
+    padding-left:5px;
+}
+
