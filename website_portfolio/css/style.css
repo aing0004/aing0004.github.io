@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bebas Neue', cursive;
+}
+h1{
+	font-size: 50px;
+}
+.row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
+	text-align: center;
+}
+.bg-light{
+	background-color:#131216 !important;
+}
+.navbar a{
+	color:#E4D9D9 !important;
+}
+.portfolio{
+	background-color:#95CEF7;
+}
+html,body{
+    margin:0;
+    height:100%;
+}
+img{
+  display:block;
+  width:100%; height:100%;
+  object-fit: cover;
+}
+img{
+  display:block;
+  width:100%; height:100%;
+}
+.genesis{
+	width: 100%;
+	height: auto;
+}
+.section-photography{
+	background-color: white;
+}
+.title-photography, .title-about, .title-editorial{
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 0px;
+}
+.title-editorial, .description-editorial, .name, .description, .description-extra, .title-collages, .description-collages{
+	color: white;
+}
+.title-collages{
+	color: white;
+	padding: 60px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.section-collages, .section-editorial, .section-extra-collages{
+	background-color: black;
+}
+.section-painting{
+	background-color:#F2786D;
+}
+.home-experimental{
+	padding: 95px;
+	background-color: black;
+}
+.row-description{
+	text-align: center;
+	background-color: black;
+}
+.description-photography, .description-collages, .description-editorial, .description-commissions, .description-pm, .description-painting, .description-extra{
+	padding-bottom: 20px;
+}
+.janelle{
+	height: 100%;
+	width: 100%;
+}
+.description-painting{
+	padding-bottom: 20px;
+}
+.container-fluid{
+	padding: 0px;
+}
+.title-blkskn{
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center
+}
+.title-genesis{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.title-bombay{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.title-pm, .title-painting{
+	padding-top: 40px;
+	text-align: center;
+}
+.description-extra, .description-painting{
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+.title-extra{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.title-painting{
+	padding-top: 100px;
+}
+
+
+
+#footer, .footer-bottom{
+	background-color: black;
+	position:absolute;
+	height: 200px;
+	width: 100%;
+	color:#F8EDDE;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 40px;
+}
+.collage-preview, .commissions-preview{
+	height: 554.98px;
+	width: 100%;
+	object-fit: cover;
+}
+.btn btn-primary{
+	text-align: center;
+}
+.wrapper{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.button{
+	background-color:#000000;
+	border: none;
+	color: #D2F6FE;
+	padding: 10px;
+}
+.description-collages, .description-photography, .description-commissions{
+	text-align: center;
+}
+.portfolio{
+	background-color:#6DD1FB;
+}
+.about{
+	background:#6DD1FB;
+	padding: 80px 0;
+}
+.ig-icon, .fb-icon{
+	color: white;
+}
+.blkskn{
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.gaga, .janelle{
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+.home-description-photography, .home-description-collages, .home-description-commissions{
+	text-align: center;
+	color:#D2F6FE;
+	padding-top: 10px;
+}
+.home-photography, .home-collages, .home-commissions{
+	text-align: center;
+	color:#D2F6FE;
+    padding-top: 40px;
+}
+.row-commissions{
+	background-color: #6DD1FB;
+}
+.description-bombay{
+	padding-bottom: 20px;
+}
+.title-commissions{
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 0px;
+}
+.row-commissions{
+	padding-bottom: 0px;
+}
+.section-commissions{
+	background-color: #6DD1FB;
+
+}
