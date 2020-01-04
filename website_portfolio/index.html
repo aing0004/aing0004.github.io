@@ -16,34 +16,35 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+	
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetarget"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon custom-toggler"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="thetarget">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/index.html#">Home<span class="sr-only">(current)</span></a>
+        <li class="navbar-link nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/photography.html#">Photography</a>
+          <a class="navbar-link nav-link" href="photography.html">Photography</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/collages.html">Collage-Making</a>
+          <a class="navbar-link nav-link" href="collages.html">Collage-Making</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/commissions.html">Commissions</a>
+          <a class="navbar-link nav-link" href="commissions.html">Commissions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/contact.html">Contact</a>
+          <a class="navbar-link nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-	
+
   <section class="home">
       <div class="row no-gutters">
         <div class="col-md-2">
@@ -115,266 +116,11 @@
     </div>
   </section>
 	
-	
-<!--
-  <section class="section-photography">
-      <div class="row-photography">
-        <div class="col-xs-12">
-          <h1 class="title-photography">Photography</h1>
-        </div>
-		<div class="col-md-6 offset-md-3">
-			 <h3 class="title-genesis">Genesis Series</h3>
-			 <p class="description-photography">A photography-based project that explores the combination of photographs and illustration, as well as the idea of coexistence between humankind and nature. </p>
-		</div>
-	  </div>
-      	<div class="row no-gutters">
-        <div class="col-md-3">
-          <img class="genesis img-fluid" src="img/GENESIS.jpg" alt="genesis 1">
-        </div>
-        <div class="col-md-3">
-          <img class="genesis img-fluid" src="img/GENESIS3.jpg" alt="genesis 2">
-        </div>
-        <div class="col-md-3">
-          <img class="genesis img-fluid" src="img/GENESIS6.jpg" alt="genesis 3">
-        </div>
-        <div class="col-md-3">
-          <img class="genesis img-fluid" src="img/GENESIS7.jpg" alt="genesis 4">
-        </div>
-        </div>
-  </section>
-	
-  <section class="section-clouds-sunsets">
-		<div class="col-md-6 offset-md-3">
-		  <h3 class="title-pm">8-9 pm</h3>
-		  <p class="description-pm">A photography series based on documenting sunsets and cloud formations on various days during the summer months of 2019. I became deeply intrigued by the transition of day into night, sunlight into darkness. I wanted to document the unique visual atmospheric changes that occur during this ordinary event/liminal space. Almost every photo was shot between 8pm and 9pm. The photos were later digitally overlaid to create surreal visuals.</p>
-	    </div>
-
-	  <div class="container-fluid">
-		  <div class="row no-gutters">
-			  <div class="col-md-6">
-				  <div class="carousel slide carousel-fade" id="sunsets-carousel" data-ride="carousel">
-					  <ol class="carousel-indicators">
-						  <li data-target="#sunsets-carousel" data-slide-to="0" class="active"></li>
-						  <li data-target="#sunsets-carousel" data-slide-to="1"></li>
-						  <li data-target="#sunsets-carousel" data-slide-to="2"></li>
-					  </ol>
-					  <div class="carousel-inner">
-						  <div class="carousel-item text-center active">
-							  <div class="img-box">
-								  <img src="img/EXPERIMENTALS10.jpg" class="d-block w-100" alt="sunset">
-							  </div>
-						  </div> 
-						  <div class="carousel-item text-center">
-							  <div class="img-box">
-								  <img src="img/EXPERIMENTALS11.jpg" class="d-block w-100" alt="sunset">
-							  </div>
-						  </div>
-						  <div class="carousel-item text-center">
-							  <div class="img-box">
-								  <img src="img/EXPERIMENTALS12.jpg" class="d-block w-100" alt="sunset">
-							  </div>
-						  </div>
-					  </div>
-					  <a href="#sunsets-carousel" class="carousel-control-prev" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					  </a>
-					  <a href="#sunsets-carousel" class="carousel-control-next" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					  </a>
-				  </div>
-			</div>
-		<div class="col-md-6">
-		  	<div class="carousel slide carousel-fade" id="sunsets2-carousel" data-ride="carousel">
-			  <ol class="carousel-indicators">
-				  <li data-target="#sunsets2-carousel" data-slide-to="0" class="active"></li>
-				  <li data-target="#sunsets2-carousel" data-slide-to="1"></li>
-				  <li data-target="#sunsets2-carousel" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-				  <div class="carousel-item text-center active">
-					  <div class="img-box">
-						  <img src="img/EXPERIMENTALS2.jpg" class="d-block w-100" alt="clouds">
-					  </div>
-				  </div> 
-				  <div class="carousel-item text-center">
-					  <div class="img-box">
-						  <img src="img/EXPERIMENTALS1.jpg" class="d-block w-100" alt="clouds">
-					  </div>
-				  </div>
-				  <div class="carousel-item text-center">
-					  <div class="img-box">
-						  <img src="img/EXPERIMENTALS6.jpg" class="d-block w-100" alt="clouds">
-					  </div>
-				  </div>
-			  </div>
-			  <a href="#sunsets2-carousel" class="carousel-control-prev" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			  </a>
-			  <a href="#sunsets2-carousel" class="carousel-control-next" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			  </a>
-		  </div>
-	    </div>
-	</div>
-	</div>
-	</section>
-	
-  <section class="section-collages">
-      <div class="row-collages">
-        <div class="col-xs-12">
-          <h1 class="title-collages">Collage-Making</h1>
-        </div>
-		<div class="col-md-6 offset-md-3">
-		  <h3 class="title-blkskn">BLK SKN Collage Series</h3>
-		  <p class="description-collages">Celebrating the aesthetics of dark-pigmented skin based on the work of African-American visual artists from around the globe.</p>
-	    </div>
-      	<div class="row no-gutters">
-        <div class="col-md-3">
-          <img class="blkskn img-fluid" src="img/PORTFOLIO_BLK_COLLAGES4.jpg" alt="blkskn">
-        </div>
-        <div class="col-md-3">
-          <img class="blkskn img-fluid" src="img/PORTFOLIO_BLK_COLLAGES7.jpg" alt="blkskn">
-        </div>
-        <div class="col-md-3">
-          <img class="blkskn img-fluid" src="img/PORTFOLIO_BLK_COLLAGES12.jpg" alt="blkskn">
-        </div>
-        <div class="col-md-3">
-          <img class="blkskn img-fluid" src="img/PORTFOLIO_BLK_COLLAGES3.jpg" alt="blkskn">
-        </div>
-        </div>
-	  </div>
-  </section>
-			  
-
-	
-  <section class="section-editorial">
-      <div class="row-editorial">
-        <div class="col-xs-12">
-          <h3 class="title-magazine">BLK SKN Magazine</h3>
-        </div>
-		<div class="col-md-6 offset-md-3">
-		  <p class="description-editorial">An editorial piece that combines African-American literature with my collage pieces.</p>
-	    </div>
-		</div>	  
-      	<div class="row no-gutters">
-        <div class="col-md-6">
-          <img class="blksknmag img-fluid" src="img/BLK_SKN_MAG4.jpg" alt="blksknmag">
-        </div>
-        <div class="col-md-6">
-          <img class="blksknmag img-fluid" src="img/BLK_SKN_MAG10.jpg" alt="blksknmag">
-        </div>
-        <div class="col-md-6">
-          <img class="blksknmag img-fluid" src="img/BLK_SKN_MAG7.jpg" alt="blksknmag">
-        </div>
-        <div class="col-md-6">
-          <img class="blksknmag img-fluid" src="img/BLK_SKN_MAG8.jpg" alt="blksknmag">
-        </div>
-        </div>
-  </section>
-			 
--->
-<!--
-<section class="section-extra-collages">
-      <div class="row-extra">
-		<div class="col-md-6 offset-md-3">
-		  <h3 class="title-extra">Pop Culture Collage Series: Lady Gaga and Janelle Monáe</h3>
-		  <p class="description-extra">Celebrating the work of various talented female musicians.</p>
-	    </div>
-      	<div class="row no-gutters">
-		<div class="col-md-6">
-          <img class="gaga img-fluid" src="img/gaga.jpg" alt="lady gaga">
-		</div>
-        <div class="col-md-6">
-          <img class="janelle img-fluid" src="img/janelle_collage.jpg" alt="janelle">
-        </div>
-
-        </div>
-	</div>
-</section>
-
-
-  <section class="section-commissions">
-      <div class="row-commissions">
-        <div class="col-xs-12">
-          <h1 class="title-commissions">Commissioned Work</h1>
-        </div>
-		<div class="col-md-6 offset-md-3">
-		  <h3 class="title-bombay">Bombay Sapphire: Let's Gin Up Event</h3>
-		  <p class="description-commissions">Live Painting Event (May 2019)</p>
-	    </div>
-		</div>
-      	<div class="row no-gutters">
-        <div class="col-md-4">
-          <img class="bombay img-fluid" src="img/bombay_commission.jpg" alt="bombay">
-        </div>
-        <div class="col-md-4">
-          <img class="bombay img-fluid" src="img/bombay_commission3.jpg" alt="bombay">
-        </div>
-        <div class="col-md-4">
-          <img class="bombay img-fluid" src="img/bombay_commission4.jpg" alt="bombay">
-        </div>
-        </div>
-  </section>
-  <section class="section-painting">
-		<div class="col-md-6 offset-md-3">
-		  <h3 class="title-painting">Butterfly-Themed Oil Painting</h3>
-		  <p class="description-painting">Painting commissioned for a newborn baby's bedroom.</p>
-	    </div>
-      	<div class="row no-gutters">
-        <div class="col-md-6">
-          <img class="butterfly img-fluid" src="img/butterfly_commission3.jpg" alt="butterfly">
-        </div>
-        <div class="col-md-6">
-          <img class="butterfly img-fluid" src="img/butterfly_commission2.jpg" alt="butterfly">
-        </div>
-        </div>
-  </section>
-	
--->
-<!--
-<section class="portfolio">
-	<div class="container-fluid">
-		<div class="card-deck">
-		  <div class="card">
-			<img class="card-img-top" src="img/EXPERIMENTALS2.jpg" alt="photography">
-			<div class="card-block">
-			  <h4 class="card-title">Photography</h4>
-			  <p class="card-text">Click button to view all photographic projects</p>
-			</div>
-		  </div>
-		  <div class="card">
-			<img class="card-img-top" src="img/PORTFOLIO_BLK_COLLAGES4.jpg" alt="collages">
-			<div class="card-block">
-			  <h4 class="card-title">Collage-Making</h4>
-			  <p class="card-text">Click button to view all collage projects</p>
-			</div>
-		  </div>
-		  <div class="card">
-			<img class="card-img-top" src="img/bombay_commission.jpg" alt="commissions">
-			<div class="card-block">
-			  <h4 class="card-title">Commissioned Work</h4>
-			  <p class="card-text">Click button to view all commissioned projects</p>
-			</div>
-		  </div>
-		</div>
-	</div>
-</section>
-	
--->
-	
 <section class="portfolio">
 	<div class="container-fluid">
 		<div class="row no-gutters">
 				<div class="col-md-4">
 				  <div class="carousel slide carousel-fade" id="photo-carousel" data-ride="carousel">
-					  <ol class="carousel-indicators">
-						  <li data-target="#photo-carousel" data-slide-to="0" class="active"></li>
-						  <li data-target="#photo-carousel" data-slide-to="1"></li>
-					  </ol>
 					  <div class="carousel-inner">
 						  <div class="carousel-item text-center active">
 							  <div class="img-box">
@@ -400,16 +146,13 @@
 				<h1 class="home-photography">Photography</h1>
 				<p class="home-description-photography">Click button to visit Photography page</p>
 					<div class="wrapper">
-						<button class="button active" target="block" aria-pressed="true" 
-								a href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/photography.html#">Photography</button>
+						<button class="button active" target="blank" aria-pressed="true">
+								<a href="photography.html" class="button active">Photography</a>
+						</button>
 					</div>			
 			</div>
 			<div class="col-md-4">
 				  <div class="carousel slide carousel-fade" id="collage-carousel" data-ride="carousel">
-					  <ol class="carousel-indicators">
-						  <li data-target="#collage-carousel" data-slide-to="0" class="active"></li>
-						  <li data-target="#collage-carousel" data-slide-to="1"></li>
-					  </ol>
 					  <div class="carousel-inner">
 						  <div class="carousel-item text-center active">
 							  <div class="img-box">
@@ -434,15 +177,13 @@
 				<h1 class="home-collages">Collage-Making</h1>
 				<p class="home-description-collages">Click button to visit Collage-Making page</p>
 					<div class="wrapper">
-						<button class="button active" target="block" aria-pressed="true" a href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/collages.html">Collage-Making</button>
+						<button class="button active" target="blank" aria-pressed="true">
+								<a href="collages.html" class="button active">Collages</a>
+						</button>
 					</div>			
 			</div>
 			<div class="col-md-4">
 				  <div class="carousel slide carousel-fade" id="commissions-carousel" data-ride="carousel">
-					  <ol class="carousel-indicators">
-						  <li data-target="#commissions-carousel" data-slide-to="0" class="active"></li>
-						  <li data-target="#commissions-carousel" data-slide-to="1"></li>
-					  </ol>
 					  <div class="carousel-inner">
 						  <div class="carousel-item text-center active">
 							  <div class="img-box">
@@ -467,7 +208,9 @@
 				<h1 class="home-commissions">Commissions</h1>
 				<p class="home-description-commissions">Click button to visit Commissioned Projects page</p>
 					<div class="wrapper">
-						<button class="button active" target="block" aria-pressed="true" a href="file:///Users/andrewinguanez/Desktop/aing0004.github.io/website_portfolio/commissions.html">Commissions</button>
+						<button class="button active" target="blank" aria-pressed="true">
+								<a href="commissions.html" class="button active">Commissions</a>
+						</button>
 					</div>
 			</div>
 		</div>
@@ -476,32 +219,99 @@
 <footer id="footer">
 	<div class="footer">
 		<div class="footer-content">
-			<div class="row no-gutters">
-				<div class="col-md-4">
-
-				</div>
-				<div class="col-md-4">
-					<div class="social-media-icons">
-						<a href="https://www.facebook.com/andrewinguanez.art/?ref=aymt_homepage_panel&eid=ARDo4JuixAMnYRpxbhYKs84aQ3XuMvhvVxPQkFYkw3kTr2091cTre5wotD4DFKO1UtW7hv30WkrJJHfX" target="blank">
-						<i class="fab fa-facebook" alt="facebook"></i>
+			<div class="row-socials no-gutters">
+				<div class="col-xs-12">
+					<div class="socials">
+						<a class="social-media-icons" href="https://www.facebook.com/andrewinguanez.art/?ref=aymt_homepage_panel&eid=ARDo4JuixAMnYRpxbhYKs84aQ3XuMvhvVxPQkFYkw3kTr2091cTre5wotD4DFKO1UtW7hv30WkrJJHfX" target="blank">
+						<i class="fab fa-facebook fa-2x" alt="facebook"></i>
 						</a> 
-						<a href="https://www.instagram.com/andrew.inguanez/" target="blank">
-						<i class="fab fa-instagram" alt="instagram"></i></a>
+						<a class="social-media-icons" href="https://www.instagram.com/andrew.inguanez/" target="blank">
+						<i class="fab fa-instagram fa-2x" alt="instagram"></i></a>
+						<a class="social-media-icons" href="mailto:drew.ing24@gmail.com" target="_blank"><i class="far fa-envelope fa-2x" alt="email"></i></a>
+						<br>
+						<p class="phone"><i class="social-media-icons fas fa-phone-alt fa-2x"></i> 21456979 </p>
+						<p class="mobile"><i class="social-media-icons fas fa-mobile-alt fa-2x"></i> 79244099</p>
 					</div>
 				</div>
 			</div>
 		</div>	
 		</div>
 	<div class="footer-bottom">
-		&copy; Designed by Andrew Inguanez 2019
+		&copy; Website designed by Andrew Inguanez 2019
 	</div>
-
 </footer>
-
-	
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+	$(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+</script>
+<script>
+const backToTopButton = document.querySelector("#back-to-top-btn");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+  if (window.pageYOffset > 300) { // Show backToTopButton
+    if(!backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnExit");
+      backToTopButton.classList.add("btnEntrance");
+      backToTopButton.style.display = "block";
+    }
+  }
+  else { // Hide backToTopButton
+    if(backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnEntrance");
+      backToTopButton.classList.add("btnExit");
+      setTimeout(function() {
+        backToTopButton.style.display = "none";
+      }, 250);
+    }
+  }
+}
+
+backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+// function backToTop() {
+//   window.scrollTo(0, 0);
+// }
+
+function smoothScrollBackToTop() {
+  const targetPosition = 0;
+  const startPosition = window.pageYOffset;
+  const distance = targetPosition - startPosition;
+  const duration = 750;
+  let start = null;
+  
+  window.requestAnimationFrame(step);
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const progress = timestamp - start;
+    window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+    if (progress < duration) window.requestAnimationFrame(step);
+  }
+}
+
+function easeInOutCubic(t, b, c, d) {
+	t /= d/2;
+	if (t < 1) return c/2*t*t*t + b;
+	t -= 2;
+	return c/2*(t*t*t + 2) + b;
+}	
+</script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
