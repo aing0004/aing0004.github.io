@@ -15,8 +15,9 @@ h1{
 .bg-light{
 	background-color:#131216 !important;
 }
-.navbar a{
+.navbar, .navbar-expand-sm a{
 	color:#E4D9D9 !important;
+	background-color: black;
 }
 .portfolio{
 	background-color:#95CEF7;
@@ -122,6 +123,7 @@ html,body{
 	width: 100%;
 	object-fit: cover;
 }
+/* button styling */
 .btn btn-primary{
 	text-align: center;
 }
@@ -132,14 +134,9 @@ html,body{
 .button{
 	background-color:#000000;
 	border: none;
-	color: #D2F6FE;
 	padding: 10px;
 }
-/* button styling */
-.button a:hover{
-	background-color: #6DD1FB;
-	color: #D2F6FE;
-}
+
 .description-collages, .description-photography, .description-commissions{
 	text-align: center;
 }
@@ -164,7 +161,6 @@ html,body{
 .home-photography, .home-collages, .home-commissions{
 	text-align: center;
 	color:#D2F6FE;
-    padding-top: 40px;
 }
 
 /*Commissions Page */
@@ -350,8 +346,8 @@ form{
 	background-color: #6DD1FB !important;
 	color: #D2F6FE !important;
 }
-.custom-toggler{
-	font-color: #D2F6FE !important;
+.navbar-toggler-icon{
+	color: #D2F6FE !important;
 	align-content: left;
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
@@ -374,4 +370,37 @@ form{
 img{
 	height: 100%;
 	width: 100%;
+}
+
+/* Index Styling */
+.home-photography-section{
+	background-color: #A00003;
+}
+.home-photography, .home-description-photography, .btn-photo{
+	color:#FCC9CA !important;
+}
+.home-photography, .home-commissions, .home-collages{
+	padding-top: 40px;
+}
+.home-collages-section{
+	background-color: #E4A91C;
+}
+.home-collages, .btn-collages, .home-description-collages{
+	color:#FFEDC4 !important;
+}
+
+.btn-commissions:hover{
+	text-decoration: none !important;
+	color: white;
+}
+.btn-photo:hover{
+	text-decoration: none !important;
+	color: white;
+}
+.btn-collages:hover{
+	text-decoration: none !important;
+	color: white;
+}
+.btn-commissions{
+	color: #D2F6FE;
 }
