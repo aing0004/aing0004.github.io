@@ -132,9 +132,7 @@ html,body{
 	padding-bottom: 30px;
 }
 .button{
-	background-color:#000000;
 	border: none;
-	padding: 10px;
 }
 
 .description-collages, .description-photography, .description-commissions{
@@ -346,22 +344,7 @@ form{
 	background-color: #6DD1FB !important;
 	color: #D2F6FE !important;
 }
-.navbar-toggler-icon{
-	color: #D2F6FE !important;
-	align-content: left;
-	-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-	-o-transform: rotate(0deg);
-	transform: rotate(0deg);
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-.navbar-toggler{
-	border: none;
-	align-content: left;
-}
+
 @media screen and (max-width: 768px){
 	.experimental{
 		display: none;
@@ -388,19 +371,20 @@ img{
 .home-collages, .btn-collages, .home-description-collages{
 	color:#FFEDC4 !important;
 }
-
-.btn-commissions:hover{
-	text-decoration: none !important;
-	color: white;
-}
-.btn-photo:hover{
-	text-decoration: none !important;
-	color: white;
-}
-.btn-collages:hover{
-	text-decoration: none !important;
-	color: white;
-}
 .btn-commissions{
 	color: #D2F6FE;
+	background-color:#6DD1FB;
 }
+.btn-photo{
+	background-color:#A00003;
+}
+.btn-collages{
+	background-color: #E4A91C;
+}
+.btn-collages:hover, .fa-cut:hover{
+	color: #997E03;
+}
+.btw-photo:hover, .fa-camera:hover{
+	color: #5E0001;
+}
+
