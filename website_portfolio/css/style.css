@@ -399,7 +399,6 @@ img{
 .description-concert{
 	padding-bottom: 20px;
 }
-
 .clouds-bottom{
 	padding-bottom: 40px;
 }
@@ -433,8 +432,6 @@ img{
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 40px;
-
-
 }
 .blkskn-mag-bottom{
 	padding-bottom: 0px;
@@ -452,4 +449,8 @@ img{
 .description-editorial{
 	color: white;
 	text-align: center;
+}
+.concert-top{
+	padding-top: 0px;
+	
 }
