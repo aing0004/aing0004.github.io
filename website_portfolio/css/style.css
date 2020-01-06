@@ -36,13 +36,14 @@ html,body{
 .section-photography{
 	background-color: white;
 }
-.title-photography, .title-about, .title-editorial{
+.title-photography, .title-about{
 	text-align: center;
 	padding: 60px;
 	padding-bottom: 0px;
 }
-.title-editorial, .description-editorial, .name, .description, .description-extra, .title-collages, .description-collages{
+.name, .description, .description-extra, .title-collages, .description-collages{
 	color: white;
+	text-align: center;
 }
 .title-collages{
 	color: white;
@@ -50,7 +51,7 @@ html,body{
 	padding-bottom: 0px;
 	text-align: center;
 }
-.section-collages, .section-editorial, .section-extra-collages{
+.section-collages, .section-extra-collages{
 	background-color: black;
 }
 .section-painting{
@@ -214,7 +215,7 @@ form{
 	background-color: black;
 }
 .title-pm, .description-pm{
-	color: white;
+	color: black;
 }
 
 /* Footer */
@@ -388,3 +389,67 @@ img{
 	color: #5E0001;
 }
 
+/* Personal Photography*/
+.title-personal, .title-concert, .description-concert{
+	text-align: center;
+}
+.title-personal{
+	padding-top: 100px;
+}
+.description-concert{
+	padding-bottom: 20px;
+}
+
+.clouds-bottom{
+	padding-bottom: 40px;
+}
+.title-contact{
+	text-align: center;
+}
+.sunset, .clouds, .clouds-bottom{
+	padding: 20px;
+}
+.clouds-bottom{
+	padding-bottom: 40px;
+}
+.section-clouds-sunsets{
+	background-color:#FFEDC4;
+}
+.concert{
+	padding: 20px;
+	padding-bottom: 20px;
+}
+.section-concert{
+	background-color: #BCD0FF;
+}
+.section-contact-page{
+	background-color:#D5E0FC;
+}
+.blkskn-mag{
+	padding: 40px;
+}
+.blkskn-mag-top{
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+
+
+}
+.blkskn-mag-bottom{
+	padding-bottom: 0px;
+	padding: 40px;
+}
+.title-editorial{
+	padding-top: 100px;
+	padding-bottom: 10px;
+	color: white;
+	text-align: center;
+}
+.section-editorial{
+	background-color: #000023;
+}
+.description-editorial{
+	color: white;
+	text-align: center;
+}
