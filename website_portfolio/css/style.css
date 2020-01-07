@@ -4,10 +4,19 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'sunflora';
 }
 h1{
 	font-size: 50px;
+}
+@font-face {
+    font-family: 'sunflora';
+    src: url(font/sunflora.otf);
+    src: url(font/sunflora.otf) format('embedded-opentype'),
+    url(font/sunflora.otf) format('woff2'),
+    url(font/sunflora.otf) format('woff'),
+    url(font/sunflora.otf) format('truetype'),
+    url(font/sunflora.otf) format('svg');
 }
 .row-about, .row-photography, .row-collages, .row-editorial, .row-commissions{
 	text-align: center;
@@ -452,5 +461,4 @@ img{
 }
 .concert-top{
 	padding-top: 0px;
-	
 }
